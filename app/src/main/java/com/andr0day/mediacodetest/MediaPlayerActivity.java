@@ -9,7 +9,7 @@ import android.view.SurfaceView;
 
 import java.io.File;
 
-public class MainActivity3 extends Activity implements SurfaceHolder.Callback {
+public class MediaPlayerActivity extends Activity implements SurfaceHolder.Callback {
     private static String SAMPLE;
     private PlayerThread mPlayer = null;
 
@@ -59,7 +59,7 @@ public class MainActivity3 extends Activity implements SurfaceHolder.Callback {
         @Override
         public void run() {
             try {
-                MediaPlayer mediaPlayer = MediaPlayer.create(MainActivity3.this, Uri.parse("file://" + SAMPLE), surfaceHolder);
+                MediaPlayer mediaPlayer = MediaPlayer.create(MediaPlayerActivity.this, Uri.parse("file://" + SAMPLE), surfaceHolder);
                 mediaPlayer.start();
             } catch (Exception e) {
                 e.printStackTrace();

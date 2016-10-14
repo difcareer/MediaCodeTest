@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class MainActivity extends Activity implements SurfaceHolder.Callback {
+public class MediaCodecActivity extends Activity implements SurfaceHolder.Callback {
     private static String SAMPLE;
     private PlayerThread mPlayer = null;
 

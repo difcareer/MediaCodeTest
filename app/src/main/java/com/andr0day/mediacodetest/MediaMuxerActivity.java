@@ -11,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-public class MainActivity2 extends Activity {
+public class MediaMuxerActivity extends Activity {
     private static String input = "video.mp4";
     private static String output = "output.mp4";
 
