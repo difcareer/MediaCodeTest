@@ -11,6 +11,7 @@ import com.andr0day.mediacodetest.gl10.p3.G1P3Activity;
 import com.andr0day.mediacodetest.gl10.p4.G1P4Activity;
 import com.andr0day.mediacodetest.gl10.p5.G1P5Activity;
 import com.andr0day.mediacodetest.gl10.p6.G1P6Activity;
+import com.andr0day.mediacodetest.gl20.google.OpenGLES20Activity;
 import com.andr0day.mediacodetest.gl20.p1.G2P1Activity;
 
 public class EntryActivity extends AppCompatActivity {
@@ -96,6 +97,14 @@ public class EntryActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(EntryActivity.this, G2P1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        (findViewById(R.id.G2Google)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EntryActivity.this, OpenGLES20Activity.class);
                 startActivity(intent);
             }
         });

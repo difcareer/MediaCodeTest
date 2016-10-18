@@ -94,6 +94,12 @@
             android:layout_height="wrap_content"
             android:text="G2P1" />
 
+        <Button
+            android:id="@+id/G2Google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G2Google" />
+
     </LinearLayout>
 
 

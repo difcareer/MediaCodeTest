@@ -29,6 +29,7 @@
         <activity android:name=".gl10.p5.G1P5Activity"/>
         <activity android:name=".gl10.p6.G1P6Activity"/>
         <activity android:name=".gl20.p1.G2P1Activity"/>
+        <activity android:name=".gl20.google.OpenGLES20Activity"/>
     </application>
 
 </manifest>
